@@ -23,9 +23,3 @@ resource "azurerm_storage_account" "example" {
   account_tier             = "Standard"
   account_replication_type = "LRS"
 }
-
-
-module "resource_group_storage" {
-  source  = "LitvinchukRoman/resource-group/azurerm"
-  version = "1.0.1"
-}
