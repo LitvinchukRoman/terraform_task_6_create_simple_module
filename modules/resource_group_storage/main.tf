@@ -25,7 +25,7 @@ resource "azurerm_storage_account" "example" {
 }
 
 
-module "resource-group" {
+module "resource_group_storage" {
   source  = "LitvinchukRoman/resource-group/azurerm"
   version = "1.0.1"
 }
